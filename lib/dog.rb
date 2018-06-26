@@ -50,6 +50,7 @@ class Dog
   end
   
   def self.new_from_db
+    id = 
   
   def self.find_by_id
   end

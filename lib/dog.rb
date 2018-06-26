@@ -50,7 +50,10 @@ class Dog
   end
   
   def self.new_from_db
-    id = 
+    id = row[0]
+    name = row[1]
+    breed = row[2]
+    
   
   def self.find_by_id
   end
